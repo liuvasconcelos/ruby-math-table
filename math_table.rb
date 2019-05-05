@@ -8,7 +8,7 @@ def show_math_table(n)
 
 	multipliers.each do |i|
 		result = i * n
-		puts n.to_s + " x " + i.to_s + " = " + result.to_s
+		puts "#{n.to_s} x  #{i.to_s}  =  #{result.to_s} "
 	end	
 end
 
